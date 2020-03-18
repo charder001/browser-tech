@@ -1,5 +1,8 @@
 # Browser-technologies @cmda-minor-web · 2019-2020 - ShirtMaker
 
+## Sketches
+![Scan 18 mrt  2020-1](https://user-images.githubusercontent.com/43436118/76963104-c862a780-6920-11ea-9fc2-e4c6752b8a63.jpg)
+
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
