@@ -3,6 +3,17 @@
 ## Sketches
 ![Scan 18 mrt  2020-1](https://user-images.githubusercontent.com/43436118/76963104-c862a780-6920-11ea-9fc2-e4c6752b8a63.jpg)
 
+## Feedback week 2
+
+### Use case
+For this project i have chosen the use case "Ik wil mijn eigen t-shirt-met-nerdy-tekst kunnen ontwerpen, printen, opslaan, en een volgende keer dat ik de site bezoek kunnen gebruiken.".
+
+### Code stucture
+For this course, the goal is to create an app which uses 3 fundemental layers: functional - useable - enhanched.
+To achieve this goal, my page will be fully served by server side rendering. The site will be functional with just plain HTML enabled, will look more pretty and useable with CSS enabled, and will work amazingly when HTML, CSS and JS are enabled.
+
+### What feedback would i like to receive?
+1. I would like to know if this way of structuring my code is solid.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
