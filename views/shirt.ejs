@@ -1,9 +1,14 @@
 <%- include("partials/head") %>
 <svg height="100" width="100">
-    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="{%= shirtColor %}" />
+    <circle id="innerCircle" cx="50" cy="50" r="40" stroke="black" stroke-width="3" />
+    <style type="text/css">
+        #innerCircle {
+        fill: <%= color %>;
+        }
+    </style>
 </svg>
 <form method="POST" action="/">
-    <input type="text" id="white" name="shirtColor">
+    <input type="radio" value="white" id="white" name="shirtColor">
     <input type="submit" value="Submit">
 </form>
 <%- include("partials/footer") %>

@@ -24,6 +24,7 @@ app.set('views', 'views');
 app.use(express.static('public'));
 
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false })) 
 
 // Actually set up the server
 app.listen(port, function() {
@@ -37,6 +38,6 @@ app.get('/', function(req, res) {
 
 app.post('/', function(req, res) {
   console.log(req.body.shirtColor)
-	let shirtColor = req.body.color;
-	res.render("shirt", { shirtColor })
+	let shirtColor = req.body.shirtColor;
+	res.render("shirt", { color: shirtColor })
 });
