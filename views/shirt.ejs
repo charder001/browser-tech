@@ -1,14 +1,50 @@
 <%- include("partials/head") %>
-<svg height="100" width="100">
-    <circle id="innerCircle" cx="50" cy="50" r="40" stroke="black" stroke-width="3" />
-    <style type="text/css">
-        #innerCircle {
-        fill: <%= color %>;
-        }
-    </style>
-</svg>
-<form method="POST" action="/">
-    <input type="radio" value="white" id="white" name="shirtColor">
-    <input type="submit" value="Submit">
-</form>
+<a href="/">ShirtMaker</a>
+<main>
+    <section>
+        <h1>Your cutom t-shirt design</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            focusable="false" width="10em" height="10em"
+            style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+            <path
+                d="M480 96L320 48c-13.988 27.227-30.771 40.223-63.769 40.223C223.723 87.676 205.722 75 192 48L32 96l32 88 64-8-16 288h288l-16-288 64 8 32-88z"
+                fill="<%= color %>" /></svg>
+        <h2 id="addedText">Added text</h2>
+        <p style="color: <%= textColor %>"><%= text %></p>
+    </section>
+    <section>
+        <form method="POST" action="/">
+            <h2>Add text</h2>
+            <input type="text" name="shirtText" maxlength="7">
+            <h2>Choose shirt color</h2>
+            <label for="white">white
+                <input type="radio" value="white" id="white" name="shirtColor" checked>
+                <span class="checkmark"></span>
+            </label>
+            <label for="grey">grey
+                <input type="radio" value="grey" id="grey" name="shirtColor">
+                <span class="checkmark"></span>
+            </label>
+            <label for="blue">blue
+                <input type="radio" value="blue" id="blue" name="shirtColor">
+                <span class="checkmark"></span>
+            </label>
+            <h2>Choose text color</h2>
+            <label for="orange">Orange
+                <input type="radio" value="orange" id="orange" name="textColor" checked>
+                <span class="checkmark"></span>
+            </label>
+            <label for="black">black
+                <input type="radio" value="black" id="black" name="textColor">
+                <span class="checkmark"></span>
+            </label>
+            <h2>Already have a design? enter it below</h2>
+            <input type="text" id="shirtId" name="shirtId">
+            <input type="submit" value="Submit">
+        </form>
+    <input type="button" value="Print" id="printButton">
+</section>
+
+</main>
 <%- include("partials/footer") %>

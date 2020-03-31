@@ -1,3 +1,123 @@
-a {
+body {
+	background-color: #3B3B3B;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+}
+
+a:first-of-type {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
+	background-color: orange;
+	padding: .4em;
 	display: block;
+}
+
+main {
+	display: flex;
+	width: 90%;
+	margin: 1em;
+}
+
+section {
+	margin-right: 1em;
+}
+
+section>svg {
+	width: 100%;
+	margin: auto;
+}
+
+section > p {
+	text-align: center;
+	position: relative;
+	top: -120px;
+	color: black;
+}
+
+form {
+	margin-top: 3em;
+}
+
+input[value=Submit], input[type=button] {
+	background-color: #ffa500;
+	border: none;
+	color: black;
+	transition: padding .2s ease-out;
+	padding: .5em 1em;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin-top: 1.5em;
+}
+
+input[value=Submit]:hover {
+	transition: .2s ease-in;
+	padding: .6em 1.1em;
+}
+
+label {
+	display: block;
+	position: relative;
+	padding-left: 3em;
+	margin-bottom: 1.5em;
+	cursor: pointer;
+	font-size: 1em;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+label input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2em;
+	width: 2em;
+	border-radius: 50%;
+}
+
+label:nth-of-type(1) > .checkmark {
+	background-color: white;
+}
+
+label:nth-of-type(2) > .checkmark {
+	background-color: grey;
+}
+
+label:nth-of-type(3) > .checkmark{
+	background-color: blue;
+}
+
+label:nth-of-type(4) > .checkmark {
+	background-color: orange;
+}
+
+label:nth-of-type(5) > .checkmark{
+	background-color: black;
+}
+
+label:hover input~.checkmark {
+	background-color: #ccc;
+}
+
+label input:checked~.checkmark {
+	box-shadow: inset 0px 0px 0px 3px rgba(200,0,0,1);
+}
+
+#addedText{
+	display: none;
 }
