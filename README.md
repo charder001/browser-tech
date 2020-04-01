@@ -1,9 +1,12 @@
 # Browser-technologies @cmda-minor-web · 2019-2020 - ShirtMaker
 
-## Sketches
-![Scan 18 mrt  2020-1](https://user-images.githubusercontent.com/43436118/76963104-c862a780-6920-11ea-9fc2-e4c6752b8a63.jpg)
+![image](https://user-images.githubusercontent.com/43436118/78107212-52b50c00-73f5-11ea-949d-7dac2098eabf.png)
 
-## Feedback week 2
+
+## Sketches
+![smallerscan](https://user-images.githubusercontent.com/43436118/78107391-a6bff080-73f5-11ea-96f9-a3bfb45c44c6.jpg)
+
+
 
 ### Use case
 For this project i have chosen the use case "Ik wil mijn eigen t-shirt-met-nerdy-tekst kunnen ontwerpen, printen, opslaan, en een volgende keer dat ik de site bezoek kunnen gebruiken.".
