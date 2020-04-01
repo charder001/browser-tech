@@ -77,6 +77,16 @@ As you can see, the user still has the abillity to create custom shirts by addin
 ![testnojscss](https://user-images.githubusercontent.com/43436118/78108931-93625480-73f8-11ea-9767-92e63b724909.PNG)
 
 
+The usable layer - when css is enabled, but JavaScript isn't.
+Here, the user gets to see a more complete website. The useability is improved by better visual hierarchy, more affordance and a more pleasing look.
+![testnojs](https://user-images.githubusercontent.com/43436118/78109199-171c4100-73f9-11ea-8367-63f52c97dac4.PNG)
+
+The pleasureable layer - when everything is turned on.
+Adding JavaScript to the site allows live reloading of added text to the shirt and the printing of the website.
+![testEverything](https://user-images.githubusercontent.com/43436118/78109530-aaee0d00-73f9-11ea-8cad-8fddab3a26ad.PNG)
+
+
+
 
 
 
