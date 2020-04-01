@@ -64,6 +64,7 @@ ShirtMaker is an application designed for the use case: I want to be able to des
 
 ### Sketches
 Sketches where the user can edit colors, text, save and print their shirt.
+
 ![evensmaller](https://user-images.githubusercontent.com/43436118/78107491-d838bc00-73f5-11ea-92ac-27bdf4f0e3b6.jpg)
 
 ### How i devided my layers
