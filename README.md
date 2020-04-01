@@ -1,5 +1,8 @@
 # Browser-technologies @cmda-minor-web · 2019-2020 - ShirtMaker
 
+## Assignment 1 - Break the web
+For this assignment, i took it upon myself to investigate what pages are like when images are turned off and how the web is for color blind people. Here are my results: https://github.com/charder001/browser-tech/wiki/1.1---Break-the-web
+
 ## Assignment 1.2 - Fork your OBA
 Tested the accesibility from my code for the OBA project 1, which can be found here https://github.com/charder001/project-1-1920
 
