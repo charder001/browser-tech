@@ -88,6 +88,7 @@ Adding JavaScript to the site allows live reloading of added text to the shirt a
 
 ### Testing - browsers, accessibility
 Throughout my testing, i used the contrast checker from https://webaim.org/resources/contrastchecker/ to see if my site conforms to standards. Although my first design did not pass, after some adjustment eveything is in the clear.
+
 ![contrast1](https://user-images.githubusercontent.com/43436118/78111558-22716b80-73fd-11ea-9f64-db0446a42384.PNG)
 ![contrast2](https://user-images.githubusercontent.com/43436118/78111561-230a0200-73fd-11ea-9cb9-9383a74fe113.PNG)
 
