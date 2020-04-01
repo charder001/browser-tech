@@ -1,5 +1,8 @@
 # Browser-technologies @cmda-minor-web · 2019-2020 - ShirtMaker
 
+## Assignment 1 - Break the web
+For this assignment, i took it upon myself to investigate what pages are like when images are turned off and how the web is for color blind people. Here are my results: https://github.com/charder001/browser-tech/wiki/1.1---Break-the-web
+
 ## Assignment 1.2 - Fork your OBA
 Tested the accesibility from my code for the OBA project 1, which can be found here https://github.com/charder001/project-1-1920
 
@@ -64,6 +67,7 @@ ShirtMaker is an application designed for the use case: I want to be able to des
 
 ### Sketches
 Sketches where the user can edit colors, text, save and print their shirt.
+
 ![evensmaller](https://user-images.githubusercontent.com/43436118/78107491-d838bc00-73f5-11ea-92ac-27bdf4f0e3b6.jpg)
 
 ### How i devided my layers
@@ -74,11 +78,13 @@ Sketches where the user can edit colors, text, save and print their shirt.
 
 The functional layer - What my app looks like when JavaScript and CSS are disabled.
 As you can see, the user still has the abillity to create custom shirts by adding text and changing colors. The user also still receives their custom shirt link which they can use to pick up where they left off after they close their browser.
+
 ![testnojscss](https://user-images.githubusercontent.com/43436118/78108931-93625480-73f8-11ea-9767-92e63b724909.PNG)
 
 
 The usable layer - when css is enabled, but JavaScript isn't.
 Here, the user gets to see a more complete website. The useability is improved by better visual hierarchy, more affordance and a more pleasing look.
+
 ![testnojs](https://user-images.githubusercontent.com/43436118/78109199-171c4100-73f9-11ea-8367-63f52c97dac4.PNG)
 
 The pleasureable layer - when everything is turned on.
@@ -95,7 +101,7 @@ Throughout my testing, i used the contrast checker from https://webaim.org/resou
 ![contrast2](https://user-images.githubusercontent.com/43436118/78111561-230a0200-73fd-11ea-9cb9-9383a74fe113.PNG)
 
 ### Testing - browsers/devices
-
+https://github.com/charder001/browser-tech/wiki/Browser-Test
 
 ### Some fallbacks i have implemented
 I tried to create code which is as compatible with all browsers as possible (to my knowledge). There are some exceptions however, here are some of the fallbacks i have implemented.
