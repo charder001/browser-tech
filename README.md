@@ -66,6 +66,15 @@ ShirtMaker is an application designed for the use case: I want to be able to des
 Sketches where the user can edit colors, text, save and print their shirt.
 ![evensmaller](https://user-images.githubusercontent.com/43436118/78107491-d838bc00-73f5-11ea-92ac-27bdf4f0e3b6.jpg)
 
+### How i devided my layers
+* Functional layer contains all the core functionality of the app using Server side Rendering and HTML, this means the most important features of this application are available to the user without JavaScript or CSS.
+* Usable layer is enhanced by adding styling using CSS. This makes the user experience better by allowing for a clearer visual hierarchy, more affordance and a more aesthetically pleasing look.
+* The pleasureable layer adds things like live updating of the added text when typing and the abillity to print the shirt/webpage.
+
+### Testing - browsers, accessibility and layers
+
+
+
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
