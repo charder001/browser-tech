@@ -95,7 +95,7 @@ Throughout my testing, i used the contrast checker from https://webaim.org/resou
 ![contrast2](https://user-images.githubusercontent.com/43436118/78111561-230a0200-73fd-11ea-9cb9-9383a74fe113.PNG)
 
 ### Testing - browsers/devices
-
+https://github.com/charder001/browser-tech/wiki/Browser-Test
 
 ### Some fallbacks i have implemented
 I tried to create code which is as compatible with all browsers as possible (to my knowledge). There are some exceptions however, here are some of the fallbacks i have implemented.
