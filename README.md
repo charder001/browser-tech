@@ -1,23 +1,17 @@
 # Browser-technologies @cmda-minor-web · 2019-2020 - ShirtMaker
-
 ![image](https://user-images.githubusercontent.com/43436118/78107212-52b50c00-73f5-11ea-949d-7dac2098eabf.png)
 
+### Introducion
+This app allows the user to create custom shirts by changing colors and adding text. The app has been designed to feature different layers of usability, functional - useable and pleasureable. I interpreted this as, the core functionality has to work with pure HTML, the usability comes from adding styling and flair with CSS and the pleasureability comes from enhancement using client side JavaScript.
 
-## Sketches
+### Use Case
+ShirtMaker is an application designed for the use case: I want to be able to design, print and save nerdy t-shirts and be able to pick up where i left off after i leave the site.
+
+### Sketches
+Sketches where the user can edit colors, text, save and print their shirt.
 ![evensmaller](https://user-images.githubusercontent.com/43436118/78107491-d838bc00-73f5-11ea-92ac-27bdf4f0e3b6.jpg)
 
 
-
-
-### Use case
-For this project i have chosen the use case "Ik wil mijn eigen t-shirt-met-nerdy-tekst kunnen ontwerpen, printen, opslaan, en een volgende keer dat ik de site bezoek kunnen gebruiken.".
-
-### Code stucture
-For this course, the goal is to create an app which uses 3 fundemental layers: functional - useable - enhanched.
-To achieve this goal, my page will be fully served by server side rendering. The site will be functional with just plain HTML enabled, will look more pretty and useable with CSS enabled, and will work amazingly when HTML, CSS and JS are enabled.
-
-### What feedback would i like to receive?
-1. I would like to know if this way of structuring my code is solid.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
