@@ -4,7 +4,8 @@
 
 
 ## Sketches
-![smallerscan](https://user-images.githubusercontent.com/43436118/78107391-a6bff080-73f5-11ea-96f9-a3bfb45c44c6.jpg)
+![evensmaller](https://user-images.githubusercontent.com/43436118/78107491-d838bc00-73f5-11ea-92ac-27bdf4f0e3b6.jpg)
+
 
 
 
