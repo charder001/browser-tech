@@ -86,9 +86,32 @@ Adding JavaScript to the site allows live reloading of added text to the shirt a
 ![testEverything](https://user-images.githubusercontent.com/43436118/78109530-aaee0d00-73f9-11ea-8cad-8fddab3a26ad.PNG)
 
 
-Throughout my testing, i used the contrast checker from https://webaim.org/resources/contrastchecker/ to see if my site conforms to standards.
+Throughout my testing, i used the contrast checker from https://webaim.org/resources/contrastchecker/ to see if my site conforms to standards. Although my first design did not pass, after some adjustment eveything is in the clear.
 
+### Some fallbacks i have implemented
+* CSS fallback fonts. to ensure the user always gets the best possible fonts
+`font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;` 
 
+* Gradients don't work well in some browsers, so a fallback color has been implemented
+`	background: rgb(255,165,0);
+	background: linear-gradient;
+ `
+ 
+* @support for flexbox to ensure a decent layout
+
+ `@supports(display: flex) {
+	main {
+		display: flex;
+		width: 90%;
+		margin: 1em;
+	}
+}
+
+main {
+	float: left;
+	margin-left: 2em;
+}
+`
 
 
 
