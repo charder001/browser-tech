@@ -86,6 +86,8 @@ Adding JavaScript to the site allows live reloading of added text to the shirt a
 ![testEverything](https://user-images.githubusercontent.com/43436118/78109530-aaee0d00-73f9-11ea-8cad-8fddab3a26ad.PNG)
 
 
+Throughout my testing, i used the contrast checker from https://webaim.org/resources/contrastchecker/ to see if my site conforms to standards.
+
 
 
 
