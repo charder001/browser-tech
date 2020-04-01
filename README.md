@@ -72,6 +72,9 @@ Sketches where the user can edit colors, text, save and print their shirt.
 * The pleasureable layer adds things like live updating of the added text when typing and the abillity to print the shirt/webpage.
 
 ### Testing - browsers, accessibility and layers
+The functional layer - What my app looks like when JavaScript and CSS are disabled.
+As you can see, the user still has the abillity to create custom shirts by adding text and changing colors. The user also still receives their custom shirt link which they can use to pick up where they left off after they close their browser.
+![testnojscss](https://user-images.githubusercontent.com/43436118/78108931-93625480-73f8-11ea-9767-92e63b724909.PNG)
 
 
 
