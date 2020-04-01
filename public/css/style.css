@@ -10,15 +10,23 @@ a:first-of-type {
 	color: black;
 	font-weight: bold;
 	font-size: 2em;
-	background-color: orange;
+	background: rgb(255,165,0);
+	background: linear-gradient(90deg, rgba(255,165,0,1) 11%, rgba(255,181,44,1) 88%, rgba(255,215,143,1) 100%);
 	padding: .4em;
 	display: block;
 }
 
+@supports(display: flex) {
+	main {
+		display: flex;
+		width: 90%;
+		margin: 1em;
+	}
+}
+
 main {
-	display: flex;
-	width: 90%;
-	margin: 1em;
+	float: left;
+	margin-left: 2em;
 }
 
 section {
@@ -35,6 +43,11 @@ section > p {
 	position: relative;
 	top: -120px;
 	color: black;
+}
+
+#uniqueId {
+	text-align: center;
+	margin-top: -3em;
 }
 
 form {
