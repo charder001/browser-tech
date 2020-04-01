@@ -71,7 +71,7 @@ Sketches where the user can edit colors, text, save and print their shirt.
 * Usable layer is enhanced by adding styling using CSS. This makes the user experience better by allowing for a clearer visual hierarchy, more affordance and a more aesthetically pleasing look.
 * The pleasureable layer adds things like live updating of the added text when typing and the abillity to print the shirt/webpage.
 
-### Testing - browsers, accessibility and layers
+
 The functional layer - What my app looks like when JavaScript and CSS are disabled.
 As you can see, the user still has the abillity to create custom shirts by adding text and changing colors. The user also still receives their custom shirt link which they can use to pick up where they left off after they close their browser.
 ![testnojscss](https://user-images.githubusercontent.com/43436118/78108931-93625480-73f8-11ea-9767-92e63b724909.PNG)
@@ -86,7 +86,7 @@ Adding JavaScript to the site allows live reloading of added text to the shirt a
 ![testEverything](https://user-images.githubusercontent.com/43436118/78109530-aaee0d00-73f9-11ea-8cad-8fddab3a26ad.PNG)
 
 
-
+### Testing - browsers, accessibility
 Throughout my testing, i used the contrast checker from https://webaim.org/resources/contrastchecker/ to see if my site conforms to standards. Although my first design did not pass, after some adjustment eveything is in the clear.
 ![contrast1](https://user-images.githubusercontent.com/43436118/78111121-7d569300-73fc-11ea-85c6-a4f6d5cb8e0c.PNG)
 ![contrast2](https://user-images.githubusercontent.com/43436118/78111214-9eb77f00-73fc-11ea-8b99-72f1e795df5d.PNG)
