@@ -86,14 +86,20 @@ Adding JavaScript to the site allows live reloading of added text to the shirt a
 ![testEverything](https://user-images.githubusercontent.com/43436118/78109530-aaee0d00-73f9-11ea-8cad-8fddab3a26ad.PNG)
 
 
-### Testing - browsers, accessibility
+### Testing - accessibility
+This website works fine without a mouse. Navigating with a keyboard is possible and allows the user to acces all of the websites functionality.
+
 Throughout my testing, i used the contrast checker from https://webaim.org/resources/contrastchecker/ to see if my site conforms to standards. Although my first design did not pass, after some adjustment eveything is in the clear.
 
 ![contrast1](https://user-images.githubusercontent.com/43436118/78111558-22716b80-73fd-11ea-9f64-db0446a42384.PNG)
 ![contrast2](https://user-images.githubusercontent.com/43436118/78111561-230a0200-73fd-11ea-9cb9-9383a74fe113.PNG)
 
+### Testing - browsers/devices
+
 
 ### Some fallbacks i have implemented
+I tried to create code which is as compatible with all browsers as possible (to my knowledge). There are some exceptions however, here are some of the fallbacks i have implemented.
+
 * CSS fallback fonts. to ensure the user always gets the best possible fonts
 `font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;` 
 
