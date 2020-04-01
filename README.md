@@ -1,6 +1,13 @@
 # Browser-technologies @cmda-minor-web · 2019-2020 - ShirtMaker
 
-## Assignment 1.2
+## Assignment 1.2 - Fork your OBA
+Tested the accesibility from my code for the OBA project 1, which can be found here https://github.com/charder001/project-1-1920
+
+###
+Tested
+* Searching multiple books
+* Removing books
+* Entering detail page
 
 ### iPod Touch
 
@@ -26,7 +33,7 @@ When using the website with windows built in screen reader, it becomes evident t
 ### Fix
 Images need alt text, links need to have meaningful names. Navigation with tabs should be possible by making the HTML more semantic.
 
-## Introducion to ShirtMaker
+## Assignment 2 - Introducion to ShirtMaker
 ![image](https://user-images.githubusercontent.com/43436118/78107212-52b50c00-73f5-11ea-949d-7dac2098eabf.png)
 This app allows the user to create custom shirts by changing colors and adding text. The app has been designed to feature different layers of usability, functional - useable and pleasureable. I interpreted this as, the core functionality has to work with pure HTML, the usability comes from adding styling and flair with CSS and the pleasureability comes from enhancement using client side JavaScript.
 
