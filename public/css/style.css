@@ -47,14 +47,13 @@ section > p {
 
 #uniqueId {
 	text-align: center;
-	margin-top: -3em;
 }
 
 form {
 	margin-top: 3em;
 }
 
-input[value=Submit], input[type=button] {
+input[value=Submit], #printButton {
 	background-color: #ffa500;
 	border: none;
 	color: black;
@@ -69,6 +68,7 @@ input[value=Submit], input[type=button] {
 input[value=Submit]:hover {
 	transition: .2s ease-in;
 	padding: .6em 1.1em;
+	cursor: pointer;
 }
 
 label {
