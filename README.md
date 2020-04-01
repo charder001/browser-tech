@@ -37,6 +37,28 @@ Images need alt text, links need to have meaningful names. Navigation with tabs 
 ![image](https://user-images.githubusercontent.com/43436118/78107212-52b50c00-73f5-11ea-949d-7dac2098eabf.png)
 This app allows the user to create custom shirts by changing colors and adding text. The app has been designed to feature different layers of usability, functional - useable and pleasureable. I interpreted this as, the core functionality has to work with pure HTML, the usability comes from adding styling and flair with CSS and the pleasureability comes from enhancement using client side JavaScript.
 
+## Installation
+1. Open your terminal
+2. Change directory to where you want to clone this repository, to the desktop for example
+
+`cd desktop` 
+
+3. Clone this repository
+
+`git clone https://github.com/charder001/browser-tech`
+
+4. Change direction into the newly created file
+
+`cd browser-tech`
+
+5. Install dependencies
+
+`npm install`
+
+6. Run application
+
+`npm run`
+
 ### Use Case
 ShirtMaker is an application designed for the use case: I want to be able to design, print and save nerdy t-shirts and be able to pick up where i left off after i leave the site.
 
