@@ -127,6 +127,19 @@ main {
 }
 `
 
+### To do
+* Add drag and drop for color picker with JS
+* Tidy print stylesheet
+* Live update colors
+* Prefill correct values when loading shirt
+
+### Conclusion
+In summary, this project has been quite the experience. Before, i used to make my websites the other way around. Trying to get to the finished product and then seeing how everything worked with JavaScript and CSS turned off. It was really interesting to do things differently.
+
+This course has also brought my attention to how different browsers support and behave when facing the same code, allowing me to adjust better to their quirks and features in the future.
+
+It's fair to say i won't look at web design the same as i did before. 
+
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
