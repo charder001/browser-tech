@@ -7,13 +7,13 @@
             focusable="false" width="10em" height="10em"
             style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
             preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
-            <path
+            <path id="shirtSVG"
                 d="M480 96L320 48c-13.988 27.227-30.771 40.223-63.769 40.223C223.723 87.676 205.722 75 192 48L32 96l32 88 64-8-16 288h288l-16-288 64 8 32-88z"
                 stroke="black" fill="white" />
         </svg>
         <p id="fillingText"></p>
     </section>
-    <form method="POST" action="/">
+    <form name="shirt" method="POST" action="/">
         <h2>Add text</h2>
         <input id="textInput" oninput="liveUpdate()" type="text" name="shirtText" maxlength="7">
         <h2>Choose shirt color</h2>

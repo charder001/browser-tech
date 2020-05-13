@@ -1,5 +1,6 @@
 <%- include("partials/head") %>
 <a href="/">ShirtMaker</a>
+
 <main>
     <section>
         <h1>Your cutom t-shirt design</h1>
@@ -7,25 +8,25 @@
             focusable="false" width="10em" height="10em"
             style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
             preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
-            <path
+            <path id="shirtSVG"
                 d="M480 96L320 48c-13.988 27.227-30.771 40.223-63.769 40.223C223.723 87.676 205.722 75 192 48L32 96l32 88 64-8-16 288h288l-16-288 64 8 32-88z"
                 fill="<%= color %>" /></svg>
         <h2 id="addedText">Added text</h2>
-        <p style="color: <%= textColor %>"><%= text %></p>
+        <p><%= text %></p>
         <section id="uniqueId">
-        <h3>Your unique shirt ID</h3>
-        <input type="text" name="shirtId" value="<%= id %>" readonly>
-    </section>
+            <h3>Your unique shirt ID</h3>
+            <input type="text" name="shirtId" value="<%= id %>" readonly>
+        </section>
     </section>
     <section>
-        <form method="POST" action="/">
+        <form name="shirt" method="POST" action="/">
             <h2>Add text</h2>
             <input type="text" name="shirtText" maxlength="7">
             <h2>Choose shirt color</h2>
-            <label for="white">white
-                <input type="radio" value="white" id="white" name="shirtColor" checked>
+            <label for="white">white</label>
+                <input type="radio" id="white" name="shirtColor" value="white" checked>
                 <span class="checkmark"></span>
-            </label>
+            
             <label for="grey">grey
                 <input type="radio" value="grey" id="grey" name="shirtColor">
                 <span class="checkmark"></span>
@@ -47,8 +48,8 @@
             <input type="text" id="shirtId" name="shirtId">
             <input type="submit" value="Submit">
         </form>
-    <button value="Print" id="printButton">Print</button>
-</section>
+        
+    </section>
 
 </main>
 <%- include("partials/footer") %>
