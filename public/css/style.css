@@ -134,3 +134,7 @@ label input:checked~.checkmark {
 #addedText{
 	display: none;
 }
+
+#fillingText {
+	color: orange;
+}
