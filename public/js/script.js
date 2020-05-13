@@ -10,6 +10,13 @@ function liveUpdate(){
    document.getElementById("fillingText").innerText = updatedText
 }
 
+function removeOld(){
+    var filledText = document.getElementById("filledText")
+    if (filledText.innerText != "") {
+        filledText.innerText = ""
+    }
+}
+
 const shirtSVG = document.getElementById('shirtSVG');
 let radioButtons = document.forms["shirt"].elements["shirtColor"];
 for (var i = 0, max = radioButtons.length; i < max; i++) {
