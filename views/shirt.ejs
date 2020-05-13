@@ -25,24 +25,46 @@
             <input id="textInput" oninput="liveUpdate();removeOld()" type="text" name="shirtText" maxlength="7">
             <h2>Choose shirt color</h2>
             <label for="white">white
-                <input type="radio" id="white" name="shirtColor" value="white" checked>
+                <input type="radio" id="white" name="shirtColor" value="white" 
+                <% if (color == "white") { %>
+                checked
+                <% } %>
+                >
                 <span class="checkmark"></span>
             </label>
             <label for="grey">grey
-                <input type="radio" value="grey" id="grey" name="shirtColor">
+                <input type="radio" value="grey" id="grey" name="shirtColor"
+                <% if (color == "grey") { %>
+                    checked
+                    <% } %>
+                >
                 <span class="checkmark"></span>
             </label>
             <label for="blue">blue
-                <input type="radio" value="blue" id="blue" name="shirtColor">
+                <input type="radio" value="blue" id="blue" name="shirtColor"
+                <% if (color == "blue") { %>
+                    checked
+                    <% } %>
+                    >
                 <span class="checkmark"></span>
             </label>
             <h2>Choose text color</h2>
             <label for="orange">Orange
-                <input type="radio" value="orange" id="orange" name="textColor" checked>
+                <input type="radio" value="orange" id="orange" name="textColor" 
+                <% if (textColor == "orange") { %>
+                    checked
+                    <% } %>
+                    
+                >
                 <span class="checkmark"></span>
             </label>
             <label for="black">black
-                <input type="radio" value="black" id="black" name="textColor">
+                <input type="radio" value="black" id="black" name="textColor"
+                <% if (textColor == "black") { %>
+                    checked
+                    <% } %>
+                    
+                >
                 <span class="checkmark"></span>
             </label>
             <h2>Already have a design? enter it below</h2>
