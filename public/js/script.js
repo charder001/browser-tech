@@ -35,5 +35,9 @@ for (var i = 0, max = radioButtonsText.length; i < max; i++) {
     radioButtonsText[i].onclick = function () {
         shirtTextColor.style.color = this.value;
         console.log(shirtTextColor.style.color)
+        if (document.getElementById("filledText") != undefined){
+            var filledText = document.getElementById("filledText")
+            filledText.style.color = this.value;
+        }
   }
 }
